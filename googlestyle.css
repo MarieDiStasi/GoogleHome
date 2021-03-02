@@ -1,0 +1,171 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+header {
+  margin: 10px 10px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  margin: 0;
+  height: 80%;
+}
+
+footer {
+  margin-top: 200px;
+  height: 90px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  color: grey;
+}
+
+.element {
+  font-size: 15px;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  color : grey;
+}
+
+.ecolo img {
+  height: 15px;
+  margin-right: 5px;
+}
+
+.ecolo {
+  display: flex;
+  align-items: center;
+  vertical-align: top;
+  justify-content: center;
+}
+
+.left {
+  display: block;
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  display: block;
+  float: right;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#avatar {
+  height: 30px;
+}
+
+#divDots {
+  margin: 0 15px 0 15px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#borderDots {
+  height: 100%;
+  width: 100%;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+}
+
+#borderDots:hover {
+  height: 37px;
+  width: 37px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 25px;
+}
+
+#logo {
+  height: 125px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+#divLogo {
+  display: flex;
+  justify-content: center;
+}
+
+#divSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchBar {
+  width: 560px;
+  height: 40px;
+  border: #f2f2f2 3px solid;
+  border-radius: 200px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+#loupe{
+  height: 35px;
+}
+
+#micro{
+  height: 35px;
+}
+
+#search {
+  font-size: 20px;
+  width: 450px;
+  height: 30px;
+  border: none;
+  background-color: none;
+}
+
+#search:focus {
+  background-color: none;
+  outline: none;
+  border: none;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px;
+}
+
+#button * {
+  border-radius: 5px;
+  height: 40px;
+  width: 180px;
+  border: none;
+  background-color: #f2f2f2;
+  margin: 10px;
+}
+
+#button *:hover {
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  background-color: #f2f2f2;
+}
+
+#langue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
